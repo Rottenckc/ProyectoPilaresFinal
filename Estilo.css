@@ -1,0 +1,315 @@
+.Body_MW {
+
+	background-image: url(Mexicaweb2.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	background-size: cover;
+	color: #FFFFFF;
+	font-family: 'Cinzel', serif;
+}
+
+.Div_S {
+	display: flex;
+	
+	height: 8em;
+	width: 40em;
+	
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 10px 10px 10px 30px;
+
+
+}
+
+.Div_S {
+	text-align: center;
+	color: black;
+	color: black;
+	font-size: 30px;
+	
+}
+
+
+
+.Box_Header1 {
+	font-family: 'Cinzel', serif;
+	font-size: 85px;
+	color: transparent;
+	background-color: Black;
+	background-size: 100%;
+	filter: opacity(.2); 
+	padding: 20px;	
+	text-align: center;
+	margin: 30px;
+	border: 15px black; 
+	border-radius: 10px;
+	box-shadow: 2px 4px 15px 0 #000
+}
+
+#Slog  {
+    width: 90vw;
+    font-size: 40px;
+	text-align:justify;
+	padding: 10px 10px 10px 10px;
+	margin:auto;
+	color:black;
+	padding: 40px;
+	text-align: center;
+	margin: 30px;
+	/*background-color: black;
+	filter: opacity(.3);
+	
+	border: 5px 5px 5px 5px outset white; */
+	
+}
+
+.Title_P {
+	font-family: 'Cinzel';
+	font-size: 5em;
+	display:block;
+	color: black;
+	margin: auto;
+	text-align: center;
+	padding:80px 0px 20px 0px;
+	
+}
+
+.Lista_DES {
+	font-family: 'Cinzel';
+	font-size: 20px;
+	display:block;
+	color: black;
+	margin: auto;
+	text-align: center;
+	padding:80px 0px 20px 0px;
+}
+
+
+
+.Title_1 strong {
+
+	display: inline-block;	
+    width: 90vw;
+    width:40%;
+    font-size: 90px;
+	text-align:center;
+	padding: 10px 10px 10px 10px;
+	margin:10px;
+	color:White;
+	padding: 20px;
+	text-align: center;
+	margin: 30px;
+	background-color: transparent;
+	
+	border: 5px 5px 5px 5px outset white; 
+}
+
+#lista1 {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:13px;
+    padding: 45px;
+    text-align: center;
+}
+
+
+
+#lista1 li {
+	text-align: center;
+     display:inline-block;
+     padding-right: 9em;
+     padding-left: 9em;
+     padding-bottom: 30px;
+     padding-top: 30px;
+     background-color:black;
+     
+
+
+}
+
+
+#lista_aside li {
+	text-align: center;
+     display:inline;
+     padding-right: 4em;
+     padding-left: 5em;
+     padding-bottom: 30px;
+     padding-top: 30px;
+    margin: 6px
+}
+
+nav{
+
+	max-width: 900px;
+	margin:120px 120px 120px 120px;
+	
+	
+	font-size: 20px;
+	color: white;
+	margin-top: 50px;
+}
+
+.menu-horizontal{
+
+
+	height: 50px;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	
+
+}
+
+.menu-horizontal > li > a {
+	display: block;
+	font-weight: bold;
+	
+	color: black;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+.menu-horizontal > li:hover{
+	filter: opacity(.8);
+	
+	
+}
+
+.menu-vertical{
+	color: black;
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 150px;
+	/*filter: opacity(.9);*/
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: #7FFFD4;
+	color: black;
+}
+.menu-vertical li a{
+	font-weight: bold;
+	display: block;
+	color: Black;
+	padding: 15px 15px 15px 20px;
+}
+
+
+.lista_1{
+	
+	font-size: 20px;
+
+	text-align:justify;
+	padding: 30px 30px 50px 30px
+}
+
+.Title_W {
+	font-family: 'Cinzel';
+	font-size: 4em;
+	display:block;
+	color: black;
+	margin: auto;
+	text-align: center;
+	padding:80px 0px 20px 0px;
+}
+
+
+
+.Title_W_DES {
+	font-family: 'Cinzel';
+	font-size: 1.5em;
+	display:inline-block;
+	color: black;
+	margin: auto;
+	text-align: center;
+	padding:80px 0px 20px 40px;
+}
+
+.Lista_W_DES {
+    font-family: 'Cinzel';
+	font-size: 20px;
+	display:block;
+	color: black;
+	margin: auto;
+	text-align: center;
+	padding:80px 0px 20px 0px;
+}
+
+.Button_C {
+	font-family: 'Cinzel';
+	display: block;
+	margin: auto;
+	border:red;
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	box-shadow: .5px .5px .5px .5px grey;
+	filter: opacity(.7);
+
+}
+
+aside h1 b{
+	display:block;
+	color: black;
+	margin: auto;
+	text-align: center;
+	padding:80px 0px 20px 0px;
+}
+
+
+footer {
+	color: black;
+	margin-top: 100px; 
+	margin-bottom: 50px;
+	margin-left: 34%;
+	display: inline-block;
+
+}
+
+
+.Form_C {
+	margin: auto;
+	display:block;
+	color: black;
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.Extra_C{
+	font-family: 'Cinzel';
+	font-size: 20px;
+	display:block;
+	color: black;
+	margin: auto;
+	text-align: center;
+	padding:80px 0px 20px 0px;
+}
+
+.Extra_C_C{
+	font-family: 'Cinzel';
+	font-size: 30px;
+	display:block;
+	color: black;
+	margin: auto;
+	text-align: center;
+	padding:80px 0px 20px 0px;
+}
+
+.Sobre_N {
+	font-family: 'Cinzel';
+	font-size: 30px;
+	display:block;
+	color: black;
+	margin: auto;
+	text-align: center;
+	padding:35px 30px 20px 30px;
+}
